@@ -193,14 +193,7 @@ body {
     width: 100%;
 }
 
-.about-intro {
-    color: var(--accent);
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    font-style: italic;
-}
+
 
 .about-string {
     font-size: 48px;
@@ -256,6 +249,34 @@ body {
 }
 
 
+.about-intro,
+.skills-intro,
+.projects-intro,
+.contact-intro {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.about-intro::before,
+.skills-intro::before,
+.projects-intro::before,
+.contact-intro::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: var(--accent);
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
 /* === SKILLS === */
 #skills {
     padding: 80px 40px;
@@ -266,14 +287,7 @@ body {
     margin: 0 auto;
 }
 
-.skills-intro {
-    color: var(--accent);
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    font-style: italic;
-}
+
 
 .skills-heading {
     font-size: 48px;
@@ -383,14 +397,7 @@ body {
     margin: 0 auto;
 }
 
-.projects-intro {
-    color: var(--accent);
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    font-style: italic;
-}
+
 
 .projects-heading {
     font-size: 48px;
@@ -661,14 +668,7 @@ body {
         width: 100%;
     }
 
-    .about-intro {
-        color: var(--accent);
-        font-size: 14px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        margin-bottom: 16px;
-        font-style: italic;
-    }
+
 
     .about-string {
         font-size: 48px;
@@ -734,14 +734,7 @@ body {
         margin: 0 auto;
     }
 
-    .skills-intro {
-        color: var(--accent);
-        font-size: 14px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        margin-bottom: 16px;
-        font-style: italic;
-    }
+
 
     .skills-heading {
         font-size: 48px;
@@ -851,14 +844,7 @@ body {
         margin: 0 auto;
     }
 
-    .projects-intro {
-        color: var(--accent);
-        font-size: 14px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        margin-bottom: 16px;
-        font-style: italic;
-    }
+
 
     .projects-heading {
         font-size: 48px;
@@ -986,14 +972,7 @@ body {
         margin: 0 auto;
     }
 
-    .contact-intro {
-        color: var(--accent);
-        font-size: 14px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        margin-bottom: 16px;
-        font-style: italic;
-    }
+
 
     .contact-heading {
         font-size: 48px;
@@ -1121,14 +1100,7 @@ body {
     margin: 0 auto;
 }
 
-.contact-intro {
-    color: var(--accent);
-    font-size: 14px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    font-style: italic;
-}
+
 
 .contact-heading {
     font-size: 48px;
