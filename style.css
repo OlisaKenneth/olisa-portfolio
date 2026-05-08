@@ -1205,3 +1205,94 @@ body {
 .contact-link:hover .contact-link-icon {
     border-color: var(--accent);
 }
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 768px) {
+
+    .nav-container {
+        padding: 16px 20px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    #hero {
+        padding: 100px 24px 40px 24px;
+    }
+
+    .hero-name {
+        font-size: 42px;
+    }
+
+    .hero-title {
+        font-size: 16px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    #about {
+        padding: 60px 24px;
+    }
+
+    .about-string {
+        font-size: 32px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .stats {
+        flex-direction: row;
+        gap: 32px;
+        flex-wrap: wrap;
+    }
+
+    .stats li span {
+        font-size: 36px;
+    }
+
+    #skills {
+        padding: 60px 24px;
+    }
+
+    .skills-heading {
+        font-size: 32px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #projects {
+        padding: 60px 24px;
+    }
+
+    .projects-heading {
+        font-size: 32px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #contact {
+        padding: 60px 24px 80px 24px;
+    }
+
+    .contact-heading {
+        font-size: 32px;
+    }
+
+    #scroll-ok {
+        display: none;
+    }
+}
