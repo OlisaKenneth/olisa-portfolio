@@ -11,7 +11,9 @@
     <body>
         <nav id="navbar">
             <div class="nav-container">
-                <a href="#hero" class="nav-logo">OK</a>
+                <a href="#hero" class="nav-logo">
+                    OK <span class="nav-name">Olisa Kenneth</span>
+                </a>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -279,26 +281,64 @@
                     a question, or just want to say hi — my inbox is always open.
                 </p>
 
-                <a href="mailto:kennetholisae@outlook.com" class="contact-btn">
-                    Say Hello
-                </a>
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <a href="mailto:kennetholisae@outlook.com" class="contact-link">
+                            <span class="contact-link-icon">✉</span>
+                            <span>kennetholisae@outlook.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/olisa-kenneth/" target="_blank" class="contact-link">
+                            <span class="contact-link-icon">in</span>
+                            <span>linkedin.com/in/olisa-kenneth</span>
+                        </a>
+                        <a href="https://github.com/OlisaKenneth" target="_blank" class="contact-link">
+                            <span class="contact-link-icon">⌥</span>
+                            <span>github.com/OlisaKenneth</span>
+                        </a>
+                    </div>
 
-                <div class="contact-links">
-                    <a href="mailto:kennetholisae@outlook.com" target="_blank" class="contact-link">
-                        <span class="contact-link-icon">✉</span>
-                        <span>kennetholisae@outlook.com</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/olisa-kenneth/" target="_blank" class="contact-link">
-                        <span class="contact-link-icon">in</span>
-                        <span>linkedin.com/in/olisa-kenneth</span>
-                    </a>
-                    <a href="https://github.com/OlisaKenneth" target="_blank" class="contact-link">
-                        <span class="contact-link-icon">⌥</span>
-                        <span>github.com/OlisaKenneth</span>
-                    </a>
+                    <form class="contact-form" action="https://formspree.io/f/xqendjql" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required class="form-input" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required class="form-input" />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required class="form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="form-btn">Send Message</button>
+                    </form>
                 </div>
             </div>
         </section>
+
+
+        <footer id="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <a href="#hero" class="footer-logo">OK</a>
+                    <p class="footer-tagline">"Giving freedom and life to a different art."</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="mailto:kennetholisae@outlook.com" target="_blank">Email</a>
+                    <a href="https://www.linkedin.com/in/olisa-kenneth/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/OlisaKenneth" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Olisa Kenneth. Built from scratch with HTML, CSS & JavaScript.</p>
+            </div>
+        </footer>
 
         <script src="script.js"></script>
     </body>
