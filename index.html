@@ -4,6 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Olisa Kenneth</title>
+
+        <!-- Open Graph tags for LinkedIn / social media preview -->
+        <meta property="og:title" content="Kenneth Olisa — Software Developer" />
+        <meta property="og:description" content="Full-stack developer building production REST APIs with Java, Spring Boot, React, and PostgreSQL." />
+        <meta property="og:image" content="https://olisakenneth.netlify.app/preview.png" />
+        <meta property="og:url" content="https://olisakenneth.netlify.app" />
+        <meta property="og:type" content="website" />
+
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -103,14 +111,16 @@
                         <div class="skill-group">
                             <p class="skill-level">Advanced</p>
                             <div class="skill-pills">
-                                <span class="pill gold">Godot</span>
+                                <span class="pill gold">Spring Boot</span>
+                                <span class="pill gold">Spring Data JPA</span>
                             </div>
                         </div>
                         <div class="skill-group">
                             <p class="skill-level">Advanced Beginner</p>
                             <div class="skill-pills">
                                 <span class="pill">React</span>
-                                <span class="pill">REST API</span>
+                                <span class="pill">Django REST</span>
+                                <span class="pill">Next.js</span>
                             </div>
                         </div>
                     </div>
@@ -128,6 +138,7 @@
                                 <span class="pill gold">VS Code</span>
                                 <span class="pill gold">IntelliJ</span>
                                 <span class="pill gold">Linux</span>
+                                <span class="pill gold">Postman</span>
                             </div>
                         </div>
                     </div>
@@ -141,12 +152,8 @@
                             <p class="skill-level">Advanced Beginner</p>
                             <div class="skill-pills">
                                 <span class="pill">Microsoft Azure</span>
-                            </div>
-                        </div>
-                        <div class="skill-group">
-                            <p class="skill-level">Currently Learning</p>
-                            <div class="skill-pills">
-                                <span class="pill">AWS</span>
+                                <span class="pill">Railway</span>
+                                <span class="pill">Vercel</span>
                                 <span class="pill">Docker</span>
                             </div>
                         </div>
@@ -158,13 +165,14 @@
                             <h3 class="skill-card-title">Concepts</h3>
                         </div>
                         <div class="skill-group">
+                            <p class="skill-level">Advanced</p>
                             <div class="skill-pills">
-                                <span class="pill">SDLC</span>
-                                <span class="pill">OOP</span>
-                                <span class="pill">Testing & Debugging</span>
-                                <span class="pill">Networking (TCP/IP)</span>
-                                <span class="pill">IT Infrastructure</span>
-                                <span class="pill">Windows / macOS</span>
+                                <span class="pill gold">REST Architecture</span>
+                                <span class="pill gold">OOP</span>
+                                <span class="pill gold">MVC</span>
+                                <span class="pill gold">Layered Architecture</span>
+                                <span class="pill gold">CI/CD</span>
+                                <span class="pill gold">Agile/Scrum</span>
                             </div>
                         </div>
                     </div>
@@ -176,7 +184,7 @@
 
         <section id="projects">
             <div class="projects-container">
-                <p class="projects-intro">Things I've built</p>
+                <p class="projects-intro">Things I've shipped</p>
                 <h2 class="projects-heading">Projects</h2>
 
                 <div class="projects-grid">
@@ -184,22 +192,27 @@
                     <div class="project-card">
                         <div class="project-card-top">
                             <span class="project-number">01</span>
-                            <span class="project-status">Full-Stack</span>
+                            <span class="project-status">Live</span>
                         </div>
-                        <h3 class="project-title">Channel-Based Q&A Tool</h3>
+                        <h3 class="project-title">Finance Tracker — REST API + React Frontend</h3>
                         <p class="project-description">
-                            A full-stack Q&A platform with channels, threaded replies, voting, image uploads,
-                            and admin moderation. Dockerized for one-command setup.
+                            A full-stack personal finance application with a Spring Boot REST API and a React frontend,
+                            both deployed and live. Users can manage budgets, log transactions that automatically update
+                            budget spending, and track savings goals with progress indicators.
                         </p>
                         <div class="project-tech">
-                            <span class="tech-pill">Next.js</span>
-                            <span class="tech-pill">Prisma</span>
+                            <span class="tech-pill">Java 21</span>
+                            <span class="tech-pill">Spring Boot</span>
                             <span class="tech-pill">PostgreSQL</span>
+                            <span class="tech-pill">React</span>
+                            <span class="tech-pill">Railway</span>
+                            <span class="tech-pill">Vercel</span>
                             <span class="tech-pill">Docker</span>
-                            <span class="tech-pill">TypeScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/OlisaKenneth/qna-tool" target="_blank" class="project-link">→ View Code</a>
+                            <a href="https://finance-tracker-frontend-six-rho.vercel.app" target="_blank" class="project-link">→ Live App</a>
+                            <a href="https://finance-tracker-production-1547.up.railway.app/api/budgets" target="_blank" class="project-link">→ Live API</a>
+                            <a href="https://github.com/OlisaKenneth/finance-tracker" target="_blank" class="project-link">→ View Code</a>
                         </div>
                     </div>
 
@@ -227,20 +240,22 @@
                     <div class="project-card">
                         <div class="project-card-top">
                             <span class="project-number">03</span>
-                            <span class="project-status">In Progress</span>
+                            <span class="project-status">Live</span>
                         </div>
-                        <h3 class="project-title">Personal Finance Tracker</h3>
+                        <h3 class="project-title">Channel-Based Q&A Tool</h3>
                         <p class="project-description">
-                            A Java application for tracking budgets, expenses, and savings goals.
-                            Currently CLI-based, evolving into a desktop GUI and full web app.
+                            A full-stack Q&A platform with channels, threaded replies, voting, image uploads,
+                            and admin moderation. Dockerized for one-command setup.
                         </p>
                         <div class="project-tech">
-                            <span class="tech-pill">Java</span>
-                            <span class="tech-pill">Maven</span>
-                            <span class="tech-pill">OOP</span>
+                            <span class="tech-pill">Next.js</span>
+                            <span class="tech-pill">Prisma</span>
+                            <span class="tech-pill">PostgreSQL</span>
+                            <span class="tech-pill">Docker</span>
+                            <span class="tech-pill">TypeScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/OlisaKenneth/finance-tracker" target="_blank" class="project-link">→ View Code</a>
+                            <a href="https://github.com/OlisaKenneth/qna-tool" target="_blank" class="project-link">→ View Code</a>
                         </div>
                     </div>
 
